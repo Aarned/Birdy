@@ -1,13 +1,16 @@
 @import "https://fonts.googleapis.com/css?family=Source+Sans+Pro:700";
+
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 html, body {
   height: 100%;
   width: 100%;
 }
+
 body {
   padding: 0px;
   margin: 0;
@@ -15,54 +18,67 @@ body {
   background: #fbf9ff;
   -webkit-font-smoothing: antialiased;
 }
+
 .dark {
   background: #24252a;
 }
+
 .medium {
   background: #c7c8c9;
 }
+
 .flex {
   min-height: 33vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 a.bttn {
   color: #ff0072;
   text-decoration: none;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s ease all;
 }
+
 a.bttn:hover {
   color: #fff;
 }
+
 a.bttn:focus {
   color: #fff;
 }
+
 a.bttn-dark {
   color: #644cad;
   text-decoration: none;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s ease all;
 }
+
 a.bttn-dark:hover {
   color: #fff;
 }
+
 a.bttn-dark:focus {
   color: #fff;
 }
+
 a.bttn-medium {
   color: #1a9cbc;
   text-decoration: none;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s ease all;
 }
+
 a.bttn-medium:hover {
   color: #fff;
 }
+
 a.bttn-medium:focus {
   color: #fff;
 }
+
 .bttn {
   font-size: 18px;
   letter-spacing: 2px;
@@ -77,7 +93,8 @@ a.bttn-medium:focus {
   position: relative;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
-.bttn:before {
+
+.bttn: before {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   position: absolute;
@@ -90,19 +107,22 @@ a.bttn-medium:focus {
   background-color: #ff0072;
   z-index: -2;
 }
-.bttn:hover:before {
+
+.bttn: hover: before {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
 }
-.bttn:focus:before {
+
+.bttn: focus: before {
   transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
 }
+
 .bttn-dark {
   font-size: 18px;
   letter-spacing: 2px;
@@ -118,7 +138,8 @@ a.bttn-medium:focus {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   z-index: 2;
 }
-.bttn-dark:before {
+
+.bttn-dark: before {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   position: absolute;
@@ -131,20 +152,23 @@ a.bttn-medium:focus {
   background-color: #644cad;
   z-index: -1;
 }
-.bttn-dark:hover:before {
+
+.bttn-dark: hover: before {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
 }
-.bttn-dark:focus:before {
+
+.bttn-dark: focus: before {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
 }
+
 .bttn-medium {
   font-size: 18px;
   letter-spacing: 2px;
@@ -160,7 +184,8 @@ a.bttn-medium:focus {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   z-index: 2;
 }
-.bttn-medium:before {
+
+.bttn-medium: before {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   position: absolute;
@@ -173,14 +198,16 @@ a.bttn-medium:focus {
   background-color: #1a9cbc;
   z-index: -1;
 }
-.bttn-medium:hover:before {
+
+.bttn-medium: hover: before {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   left: 0;
   right: 0;
   opacity: 1;
 }
-.bttn-medium:focus:before {
+
+.bttn-medium: focus: before {
   -webkit-transition: 0.5s all ease;
   transition: 0.5s all ease;
   left: 0;
