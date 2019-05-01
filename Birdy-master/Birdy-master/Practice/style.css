@@ -1,0 +1,63 @@
+body {
+    background-color: #9B9694;
+}
+
+#container {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#smallbox {
+    height: 100px;
+    width: 100px;
+    background-color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 500px;
+
+}
+
+.box1 {
+
+}
+
+.box2 {
+
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    font-size: 150%;
+}
+
+.border {
+    border: #000000 5px groove;
+    border-radius: 4px;
+}
+
+@media only screen
+    and (max-device-width: 500px)
+    and (max-device-height: 1000px)
+    and (orientation: portrait) {
+
+        #container {
+            
+        }
+
+        #smallbox {
+            height: 75px;
+            width: 75%;
+        }
+
+        .box1 {
+
+        }
+
+        .box2 {
+            margin-bottom: 582px;
+        }
+    }

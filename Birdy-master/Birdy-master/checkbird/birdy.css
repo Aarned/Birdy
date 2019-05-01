@@ -1,0 +1,30 @@
+body {
+  background-color: #FFFFFF;
+}
+
+#container {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#box1 {
+  height: 1465px;
+  width: 100%;
+  background-color: ;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#box2 {
+  height: 250px;
+  width: 100%;
+  background-color: gray;
+}
+
+.border {
+  border: #000000 solid 5px;
+}
+ img {
+  height: 50%;
+  width: 100%;
+ }
